@@ -1,0 +1,7 @@
+{
+  "appId": "oreno.app",
+  "appName": "orenotelework",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}

@@ -9,16 +9,8 @@ import 'firebase/firestore'
 import 'firebase/auth'
 // import 'firebase/messaging'
 import RefUserModule from 'src/modules/database/RefUser'
-
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyBdtVCwwXAMES29aDwI3t6Tyek5bRn9zV8',
-  authDomain: 'orenotelework.firebaseapp.com',
-  databaseURL: 'https://orenotelework.firebaseio.com',
-  projectId: 'orenotelework',
-  storageBucket: 'orenotelework.appspot.com',
-  messagingSenderId: '586889053371',
-  appId: '1:586889053371:web:f3115ebf90c02bbd24959e',
-  measurementId: 'G-CPWPRTZEJ8'
 }
 
 declare module 'vue/types/vue' {

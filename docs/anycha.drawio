@@ -1,0 +1,46 @@
+<mxfile host="ddd34de7-51b0-4716-ab83-9eba372738f6" modified="2020-09-22T07:54:44.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="gtD-DUJPUKFGkrFOQZAi" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="768" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="翻訳前テキスト" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.083;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Mobile&lt;br style=&quot;font-size: 14px;&quot;&gt;Browser&lt;br style=&quot;font-size: 14px;&quot;&gt;( Quasar&lt;br style=&quot;font-size: 14px;&quot;&gt;+ Firebase SDK )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="520" width="80" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Mobile&lt;br style=&quot;font-size: 14px;&quot;&gt;Browser&lt;br style=&quot;font-size: 14px;&quot;&gt;( Quasar&lt;br style=&quot;font-size: 14px;&quot;&gt;+ Firebase SDK )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="520" width="80" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Firebase Cloud Firestore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="360" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Node.js Server&lt;br style=&quot;font-size: 14px;&quot;&gt;( Firebase SDK )" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="240" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Translate API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="160" width="480" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="翻訳済テキスト&lt;br&gt;( リアルタイム )" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.918;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;exitPerimeter=0;" edge="1" parent="1" source="4" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="210" y="530" as="sourcePoint"/>
+                        <mxPoint x="209.84000000000003" y="451.03999999999996" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="370" y="280" as="sourcePoint"/>
+                        <mxPoint x="420" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="250" as="sourcePoint"/>
+                        <mxPoint x="410" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

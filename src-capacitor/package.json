@@ -1,0 +1,12 @@
+{
+  "name": "orenotelework",
+  "version": "0.0.1",
+  "description": "Oreno Telework",
+  "author": "hiroki",
+  "private": true,
+  "dependencies": {
+    "@capacitor/cli": "^2.0.0",
+    "@capacitor/core": "^2.0.0",
+    "@capacitor/ios": "2.4.1"
+  }
+}
