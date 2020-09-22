@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-floating-promises */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 /* eslint-disable @typescript-eslint/restrict-template-expressions */
@@ -6,7 +7,7 @@ import { boot } from 'quasar/wrappers'
 import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
-// import 'firebase/analytics'
+// import 'firebase/messaging'
 import RefUserModule from 'src/modules/database/RefUser'
 
 const firebaseConfig = {
@@ -30,6 +31,28 @@ declare module 'vue/types/vue' {
 
 export default boot(({ router, Vue }) => {
   const fireApp = firebase.initializeApp(firebaseConfig)
+  //   const messaging = firebase.messaging()
+
+  //   Notification.requestPermission().then(permission => {
+  //     if (permission === 'granted') {
+  //     // 通知を許可した場合
+  //       console.log('Notification permission granted.')
+
+  //       messaging.getToken().then(currentToken => {
+  //         if (currentToken) {
+  //         // トークン取得成功
+  //           console.log('currentToken:')
+  //           console.log(currentToken)
+  //         } else {
+  //         // トークン取得失敗
+  //         }
+  //       })
+  //     } else {
+  //     // 通知を拒否した場合
+  //       console.log('Unable to get permission to notify.')
+  //     }
+  //   })
+
   //   firebase.analytics()
   firebase
     .firestore()

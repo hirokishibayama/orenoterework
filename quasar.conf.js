@@ -14,7 +14,7 @@ module.exports = configure(function (ctx) {
     // https://quasar.dev/quasar-cli/supporting-ts
     supportTS: {
       tsCheckerConfig: {
-        eslint: true
+        eslint: false
       }
     },
 
@@ -39,8 +39,8 @@ module.exports = configure(function (ctx) {
       // 'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
-      // 'roboto-font', // optional, you are not bound to it
-      // 'material-icons' // optional, you are not bound to it
+      'roboto-font', // optional, you are not bound to it
+      'material-icons' // optional, you are not bound to it
     ],
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
@@ -122,6 +122,7 @@ module.exports = configure(function (ctx) {
       workboxOptions: {
         skipWaiting: true,
         clientsClaim: true
+        // swSrc: "./src-pwa/firebase-messaging-sw.js"
       }, // only for GenerateSW
       manifest: {
         name: 'orenotelework',

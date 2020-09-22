@@ -5,6 +5,8 @@ import { register } from 'register-service-worker'
 // ServiceWorkerRegistration: https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration
 
 register(process.env.SERVICE_WORKER_FILE, {
+// eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+// register(`${process.env.BASE_URL}firebase-messaging-sw.js`, {
   // The registrationOptions object will be passed as the second argument
   // to ServiceWorkerContainer.register()
   // https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/register#Parameter

@@ -1,0 +1,37 @@
+<mxfile host="34ec3561-d4cc-4634-bba8-4656b572a38c" modified="2020-09-22T01:36:33.070Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="yVbL_Z0M8MmFd70L9gde" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="768" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Firebase&lt;br style=&quot;font-size: 14px;&quot;&gt;Cloud Firestore" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontFamily=Lucida Console;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Firebase&lt;br style=&quot;font-size: 14px;&quot;&gt;Authentication&lt;br style=&quot;font-size: 14px;&quot;&gt;/ FirebaseUI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontFamily=Lucida Console;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Firebase&lt;br style=&quot;font-size: 14px;&quot;&gt;Cloud Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontFamily=Lucida Console;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="320" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Firebase&lt;br style=&quot;font-size: 14px;&quot;&gt;Hosting" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontFamily=Lucida Console;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="440" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="データ保存・参照" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="写真データ保存・参照" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="デプロイ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="認証" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="7" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Oreno&lt;br style=&quot;font-size: 14px;&quot;&gt;Telework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontFamily=Lucida Console;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
