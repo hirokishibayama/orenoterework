@@ -8,7 +8,7 @@
       />
 
       <q-card-section>
-        <div class="text-overline text-theme-blue">saitoh</div>
+        <div class="text-overline text-theme-blue">{{telework.userName}}</div>
         <div class="text-h5 q-mb-xs tele-card-title">{{telework.title}}</div>
         <div class="text-caption tele-card-detail" v-html="telework.detail">
         </div>
